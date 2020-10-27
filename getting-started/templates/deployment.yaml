@@ -18,7 +18,7 @@ spec:
         hostnames:
         - {{ .Values.hostAlias.hostname | quote }}
       containers:
-      - image: {{ .Values.container.registryUri }}/{{ .Release.Name }}:{{ .Values.container.tag }}
+      - image: kouameflorent/getting-started:latest
         name: {{ .Release.Name }}
         envFrom:
         - configMapRef:
