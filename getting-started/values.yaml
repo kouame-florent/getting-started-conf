@@ -1,7 +1,7 @@
 container:
-  registryUri: 10.3.4.18:5000
-  tag: "v0.0.0"
-  memory: "512Mi"
+  registryUri: 198.168.1.103:5000
+  tag: "v1.1.1"
+  memory: "128Mi"
 hostAlias:
   ip: 10.3.4.60
   hostname: security.domain.com
