@@ -1,6 +1,6 @@
 container:
-  registryUri: localhost:5000
-  tag: "v1.7"
+  registryUri: 172.18.0.1:5000
+  tag: "v1.8"
   memory: "128Mi"
 hostAlias:
   ip: 10.3.4.60
